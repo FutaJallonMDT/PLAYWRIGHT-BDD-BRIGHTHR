@@ -1,6 +1,6 @@
 import { Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test'; 
-import { EmployeeHubPage } from '../pages/employeeHubPage';
+import { EmployeeHubPage } from '../pages/employeeHubpage';
 
 let employeeHubPage: EmployeeHubPage;
 

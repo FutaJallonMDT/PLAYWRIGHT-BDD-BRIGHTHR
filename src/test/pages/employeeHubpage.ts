@@ -73,7 +73,6 @@ export class EmployeeHubPage {
 
     async assertEmployeesAddedVisible() {
     const employeesAdded = ['Owen olaye', 'Jason olaye']; 
-
     for (const employee of employeesAdded) {
       await expect(this.maincontentdisplay).toContainText(employee);
     }
