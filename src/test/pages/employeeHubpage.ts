@@ -71,12 +71,12 @@ export class EmployeeHubPage {
   
   }
 
-    async assertDefaultEmployeesVisible() {
-    const defaultEmployees = ['Owen olaye', 'Jason olaye']; 
+    async assertEmployeesAddedVisible() {
+    const employeesAdded = ['Owen olaye', 'Jason olaye']; 
 
-    for (const employee of defaultEmployees) {
+    for (const employee of employeesAdded) {
       await expect(this.maincontentdisplay).toContainText(employee);
     }
-    console.log('✅ Default employees are visible.');
+    console.log('✅ employees Added are visible.');
 }
 }
