@@ -45,5 +45,5 @@ Then('I Click on add employee button', async function () {
          });
 
         Then('I should Navigate to the employee tab and verify that both employees are displayed', { timeout: 20000 }, async function () {
-         await employeeHubPage.assertEmployeesVisible(['Owen olaye', 'Jason olaye']);
+         await employeeHubPage.assertDefaultEmployeesVisible();
 });

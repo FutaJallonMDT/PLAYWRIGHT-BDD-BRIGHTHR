@@ -71,11 +71,12 @@ export class EmployeeHubPage {
   
   }
 
-  async assertEmployeesVisible(employeeNames: string[]) {
-    for (const name of employeeNames) {
-      await expect(this.maincontentdisplay).toContainText(name);
-      console.log(`✅ Verified employee is visible: ${name}`);
+    async assertDefaultEmployeesVisible() {
+    const defaultEmployees = ['Owen olaye', 'Jason olaye']; 
+
+    for (const employee of defaultEmployees) {
+      await expect(this.maincontentdisplay).toContainText(employee);
     }
-  
+    console.log('✅ Default employees are visible.');
 }
 }
