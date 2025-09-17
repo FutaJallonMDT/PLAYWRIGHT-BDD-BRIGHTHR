@@ -1,0 +1,11 @@
+{
+  "browser": {
+    "name": "chromium",
+    "headless": false,
+    "args": ["--start-maximized"]
+  },
+  "app": {
+    "url": "https://sandbox-login.brighthr.com/login/?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dbrighthr-webapp%26redirect_uri%3Dhttps%253A%252F%252Fsandbox-app.brighthr.com%252Flogin%252Fcallback%26response_type%3Dcode%26code_challenge%3DU0IodY2ZCKMmqTSHhrgCsRx0mslGqFjX3X94Injllv8%26code_challenge_method%3DS256%26scope%3Dopenid%2520brighthr-auth-subject-config%2520brighthr-api-full-access%2520company%253Aread%2520offline_access%2520blip-api-full-access%2520paperwork-api-full-access%2520email"
+    
+  }  
+}
